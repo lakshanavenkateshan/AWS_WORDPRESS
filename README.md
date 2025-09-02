@@ -11,7 +11,7 @@ This project hosts a WordPress website on AWS using the following services:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - `user-data.sh` → Script used in EC2 User Data to auto-install WordPress
 - `steps/` → Step-by-step setup guide
 - `images/` → Screenshots of setup and outputs
@@ -19,7 +19,7 @@ This project hosts a WordPress website on AWS using the following services:
 
 ---
 
-## 🚀 Steps to Recreate
+## Steps to Recreate
 1. Create VPC, subnets (public + private), and Internet Gateway.
 2. Configure Security Groups:
    - EC2 SG → HTTP(80), SSH(22 from your IP)
