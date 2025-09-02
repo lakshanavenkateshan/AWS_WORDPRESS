@@ -2,7 +2,7 @@
 
 2-Launch an instance:
 
-▪️Amazon Linux 2 AMI (Free Tier)
+▪️Choose Ubuntu 22.04 instance
 
 ▪️Instance type: t2.micro
 
@@ -11,6 +11,14 @@
 ▪️Subnet: Public subnet
 
 ▪️Security group: EC2-SG
+ 
+▪️IAM Role: attach your S3 full access role
+
+▪️Add storage:
+
+▫️Root (16 GB)
+
+▫️Extra EBS (20 GB) → will mount for /var/www/html
 
 3-Under Advanced details → User Data, paste the script which is in the userdata.sh file in this repository:
 
