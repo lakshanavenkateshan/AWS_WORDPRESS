@@ -16,7 +16,7 @@
 
 ▪️VPC: Select the created VPC.
 
-▪️Subnet group: Select private subnet.
+▪️Subnet group: Select private subnets (create a subnet group with the two private subnets). 
 
 ▪️Security group: Attach RDS-SG.
 
