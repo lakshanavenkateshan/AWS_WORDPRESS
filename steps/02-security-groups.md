@@ -2,7 +2,7 @@
 
 ▪️EC2-SG (for WordPress server):
 
- ▪️Inbound rules:
+  ▫️Inbound rules:
 
   ▪️HTTP (80) → 0.0.0.0/0
 
@@ -10,12 +10,12 @@
 
   ▪️SSH (22) → Your IP only
 
- ▪️Outbound: Allow all traffic
+  ▫️Outbound: Allow all traffic
 
 ▪️RDS-SG (for MySQL database):
 
- ▪️Inbound rules:
+  ▫️Inbound rules:
 
   ▪️MySQL/Aurora (3306) → Source: EC2-SG
 
- ▪️Outbound: Allow all traffic
+  ▫️Outbound: Allow all traffic
