@@ -8,6 +8,8 @@
 
 ▪️Private subnet (example: 10.0.2.0/24)
 
+▪️Private subnet (example: 10.0.3.0/24)
+
 4-Create an Internet Gateway and attach it to the VPC.
 
 5-Create a Route Table for the public subnet:
