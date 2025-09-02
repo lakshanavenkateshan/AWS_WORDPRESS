@@ -31,5 +31,5 @@ This project hosts a WordPress website on AWS using the following services:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 See the `images/` folder for AWS console screenshots and WordPress setup page.
