@@ -5,8 +5,6 @@ This project hosts a WordPress website on AWS using the following services:
 - **EC2** (public subnet) → runs Apache + PHP
 - **RDS (MySQL)** (private subnet) → stores WordPress DB
 - **EBS** → persistent storage for WordPress files
-- **S3** → stores media uploads
-- **IAM Role** → allows EC2 to access S3
 - **User Data** → installs WordPress automatically
 
 ---
@@ -26,8 +24,7 @@ This project hosts a WordPress website on AWS using the following services:
    - RDS SG → MySQL(3306) only from EC2 SG
 3. Launch RDS (MySQL) in private subnet.
 4. Launch EC2 in public subnet with `user-data.sh`.
-5. Attach IAM Role with S3 full access to EC2.
-6. Access WordPress via EC2 public IP.
+5. Access WordPress via EC2 public IP.
 
 ---
 
