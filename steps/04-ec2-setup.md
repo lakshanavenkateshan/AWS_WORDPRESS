@@ -23,5 +23,3 @@
 3-Under Advanced details → User Data, paste the script which is in the userdata.sh file in this repository:
 
 4-Launch the instance.
-
-5-Get the Public IPv4 DNS of EC2 and open it in the browser → WordPress should load.
