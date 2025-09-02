@@ -11,8 +11,6 @@
 ▪️Subnet: Public subnet
 
 ▪️Security group: EC2-SG
- 
-▪️IAM Role: attach your S3 full access role
 
 ▪️Add storage:
 
